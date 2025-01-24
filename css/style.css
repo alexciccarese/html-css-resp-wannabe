@@ -134,6 +134,7 @@ img {
     h1 {
         font-size: 48px;
         margin: 0;
+        
     }
 
     h2 {
@@ -165,11 +166,17 @@ img {
         margin: 0;
         padding: 0;
     }
+
+    .text-center {
+        min-width: 480px;
+    }
  }
 
 
+
+
   /* tablet */
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 480px) and (max-width:768px) {
 
     h1 {
         font-size: 48px;
@@ -193,5 +200,9 @@ img {
     .steps {
         margin: 0;
         padding: 0;
+    }
+
+    .text-center {
+        min-width: 768px;
     }
  }
