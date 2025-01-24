@@ -142,7 +142,7 @@ img {
     }
 
     .container {
-        width: 480px;
+        width: 100%;
         padding: 3rem 4rem;
 
         .row {
@@ -176,7 +176,7 @@ img {
 
 
   /* tablet */
-  @media screen and (min-width: 480px) and (max-width:768px) {
+  @media screen and (min-width: 480px) and (max-width: 780px) {
 
     h1 {
         font-size: 48px;
@@ -190,7 +190,7 @@ img {
 
     .container {
         width: 768px;
-        padding: 2rem 2rem;
+        padding: 2rem 4rem;
     }
 
     .why-us {
@@ -203,6 +203,6 @@ img {
     }
 
     .text-center {
-        min-width: 768px;
+        min-width: 769px;
     }
  }
