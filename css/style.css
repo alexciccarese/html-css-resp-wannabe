@@ -132,21 +132,40 @@ img {
 
     h1 {
         font-size: 48px;
+        margin: 0;
     }
 
     h2 {
-        font-size: 42px;
+        font-size: 36px;
     }
 
     .container {
         width: 480px;
+        padding: 3rem 4rem;
 
         .row {
             flex-wrap: wrap;
+            gap: 4rem;
         }
 
         .col {
             width: 100%;
         }
     }
+
+    .why-us {
+        min-width: 480px;
+        background-color: rgb(32, 32, 32);
+        margin: 0;
+    }
+
+    .steps {
+        min-width: 480px;
+        margin: 0;
+        padding: 0;
+    }
+
+/*     .text-center {
+        width: 480px;
+    } */
  }
